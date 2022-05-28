@@ -75,6 +75,20 @@ margin: auto;
   left: 250px;
   bottom: 400px;
   width: 10%;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 10%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 10%;
+  }
 }
 
 .sun {
