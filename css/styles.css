@@ -159,3 +159,13 @@ margin: auto;
   background-image: linear-gradient(to bottom, #CD1818, #b0790c);
   text-decoration: none;
 }
+
+@media (max-width: 1028px) {
+  .airplane {
+    display: none;
+  }
+
+  .sun {
+    display: none;
+  }
+}
